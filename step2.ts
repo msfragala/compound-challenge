@@ -28,14 +28,14 @@ function formatCurrency(value: number) {
 let total = 0;
 let output = "";
 
-portfolio.forEach((portfolio) => {
-  const fund = fundsMap[portfolio.symbol];
-  const price = pricesMap[portfolio.symbol];
+portfolio.forEach(({ shares, symbol }) => {
+  const fund = fundsMap[symbol];
+  const price = pricesMap[symbol];
   const sharePrice = formatCurrency(price);
-  const sharesTotal = formatCurrency(portfolio.shares * price);
+  const sharesTotal = formatCurrency(shares * price);
 
-  output += `\n${fund.name}: ${portfolio.shares} shares at ${sharePrice} ea. -- ${sharesTotal}`;
-  total += portfolio.shares * price;
+  output += `\n${fund.name}: ${shares} shares at ${sharePrice} ea. -- ${sharesTotal}`;
+  total += shares * price;
 });
 
 output += `\nTotal: ${formatCurrency(total)}`;
