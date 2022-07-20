@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Vanguard Total Stock Market Index Fund",
+    "symbol": "VTI",
+    "assetClass": "U.S. Stocks"
+  },
+  {
+    "name": "Vanguard 500 Index Fund",
+    "symbol": "VOO",
+    "assetClass": "U.S. Stocks"
+  },
+  {
+    "name": "Vanguard Total International Bond Index Fund",
+    "symbol": "BNDX",
+    "assetClass": "International Bonds"
+  },
+  {
+    "name": "Vanguard Total International Stock Index Fund",
+    "symbol": "VXUS",
+    "assetClass": "International Stocks"
+  },
+  {
+    "name": "Vanguard Real Estate Index Fund",
+    "symbol": "VNQ",
+    "assetClass": "U.S. Real Estate"
+  },
+  {
+    "name": "Vanguard Short-Term Inflation-Protected Securities Index Fund",
+    "symbol": "VTIP",
+    "assetClass": "U.S. Inflation-Protected Bonds"
+  },
+  {
+    "name": "Vanguard Long-Term Bond Index Index Fund",
+    "symbol": "BLV",
+    "assetClass": "U.S. Bonds"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2020-01-01",
+    "portfolio": [
+      {
+        "symbol": "VTI",
+        "shares": 20
+      },
+      {
+        "symbol": "BNDX",
+        "shares": 20
+      }
+    ]
+  },
+  {
+    "date": "2020-03-15",
+    "portfolio": [
+      {
+        "symbol": "VTI",
+        "shares": 30
+      },
+      {
+        "symbol": "BNDX",
+        "shares": 20
+      },
+      {
+        "symbol": "VNQ",
+        "shares": 20
+      }
+    ]
+  },
+  {
+    "date": "2020-07-13",
+    "portfolio": [
+      {
+        "symbol": "VTI",
+        "shares": 50
+      },
+      {
+        "symbol": "VOO",
+        "shares": 50
+      },
+      {
+        "symbol": "BNDX",
+        "shares": 40
+      },
+      {
+        "symbol": "VNQ",
+        "shares": 20
+      },
+      {
+        "symbol": "BLV",
+        "shares": 20
+      }
+    ]
+  }
+]
