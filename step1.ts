@@ -10,7 +10,7 @@ async function main() {
     price: data.value.last.price,
   }));
 
-  fs.writeFile("fund_prices.json", JSON.stringify(content, null, 2));
+  return fs.writeFile("fund_prices.json", JSON.stringify(content, null, 2));
 }
 
 async function fetchStocks(symbols: string[]) {
